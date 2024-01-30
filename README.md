@@ -1,5 +1,45 @@
-**TUGAS AKHIR SEMESTER 1**
+**README - Game Kertas Batu Gunting (C++)**
 
-Project game Kertas batu gunting
+## Deskripsi Proyek
 
-Program ini dibuat dengan teknik operator, percabangan, perulangan, array, searching, sort, dan fungsi. Dalam program ini, pemain dapat menentukan jumlah round yang ingin dimainkan dan memilih satu dari tiga opsi yaitu batu, kertas, atau gunting. Komputer juga membuat pilihan secara acak dari opsi yang sama. Setelah kedua pemain membuat pilihannya, hasil akan muncul dengan memberikan poin pada pemenang. Saat round berakhir, pengguna dapat mencari skor di round yang di inputkan. 
+Proyek Tugas Akhir Semester 1 ini adalah implementasi sederhana dari permainan Kertas Batu Gunting menggunakan bahasa pemrograman C++. Proyek ini bertujuan untuk memberikan pemahaman dasar tentang struktur program C++ dan penggunaan logika pengkodean.
+
+## Fitur Utama
+
+1. **Gameplay Sederhana:** Permainan mencakup aturan dasar Kertas Batu Gunting, di mana pemain melawan komputer.
+
+2. **Antarmuka Teks:** Game ini menggunakan antarmuka teks sederhana untuk memudahkan pemahaman dan eksekusi.
+
+3. **Skor Pemain:** Menyimpan dan menampilkan skor pemain selama permainan.
+
+4. **Logika Pengkodean:** Menggunakan struktur dasar pemrograman C++ seperti pengkondisian, looping, dan fungsi untuk mengimplementasikan logika permainan.
+
+## Cara Menggunakan
+
+1. **Clone Repositori:**
+   ```bash
+   git clone https://github.com/AurellOrell/repo.git
+   ```
+
+2. **Kompilasi Program:**
+   - Buka terminal di direktori proyek.
+   - Kompilasi program dengan perintah:
+     ```bash
+     g++ kertas_batu_gunting.cpp -o game
+     ```
+
+3. **Jalankan Program:**
+   - Jalankan program dengan perintah:
+     ```bash
+     ./game
+     ```
+
+4. **Ikuti Instruksi di Layar:**
+   - Pilih antara Kertas, Batu, atau Gunting saat diminta.
+   - Lihat hasil permainan dan skor.
+
+## Kontribusi
+
+Jika Anda ingin berkontribusi pada pengembangan proyek ini, Anda dapat mengirimkan *pull request* melalui [GitHub](https://github.com/AurellOrell/repo/pulls). Jangan ragu untuk membantu meningkatkan kode atau menambahkan fitur baru.
+
+Terima kasih telah menggunakan Game Kertas Batu Gunting (C++)! Jika Anda memiliki pertanyaan atau saran, silakan buka [Issues](https://github.com/AurellOrell/repo/issues). Semoga proyek ini bermanfaat untuk pemahaman dasar pemrograman C++.
